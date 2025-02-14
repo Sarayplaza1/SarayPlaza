@@ -498,6 +498,9 @@ body {
     #hero {
         height: 98vh;
     }
+     .text-container{
+    transform: translateY(-100%);
+      }
     .text-container h3 {
         font-size: 1.5rem;
         white-space: normal;
