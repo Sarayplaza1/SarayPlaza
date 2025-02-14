@@ -499,7 +499,7 @@ body {
         height: 97vh;
     }
      .text-container{
-    transform: translateY(-100%);
+    transform: translateY(-150%);
       }
     .text-container h3 {
         font-size: 1.5rem;
