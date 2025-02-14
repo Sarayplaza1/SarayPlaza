@@ -499,7 +499,7 @@ body {
 @media screen and (max-width: 768px) {
  
     #hero {
-        height: 97vh;
+        height: 100vh;
     }
      .text-container{
     transform: translateY(-150%);
