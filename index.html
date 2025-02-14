@@ -1,0 +1,138 @@
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Hatay'da prestijli düğün ve etkinlik mekanı: Saray Plaza. Profesyonel hizmet ve unutulmaz anılar için doğru adres.">
+    <meta name="keywords" content="Hatay, Antakya, Saray Plaza, Düğün Salonu, Organizasyon, Nişan, Kına, Düğün">
+    <meta name="author" content="Saray Plaza Düğün Salonu">
+    <meta property="og:title" content="Hatay Düğün Salonu - Saray Plaza">
+    <meta property="og:description" content="Hayalinizdeki düğünü Hatay'da gerçekleştirmek için Saray Plaza'yı keşfedin.">
+    <meta property="og:image" content="./images/logo.png">
+    <meta property="og:url" content="https://www.sarayplaza.com">
+    <title>Hatay Düğün Salonu - Saray Plaza</title>
+    <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="icon" href="./images/titlelogo.ico" sizes="16x16" type="image/x-icon">
+</head>
+<body>
+    <section id="hero">
+        <img id="hero-img" src="./images/appearencemobil.png" alt="Saray Plaza Düğün Salonu - Hatay" loading="lazy">
+        <div class="blur"></div>
+        <div class="text-container">
+            <h3 class="animated-text top">Şıklığın Zarafetle Buluştuğu, Büyüleyici Atmosferiyle Unutulmaz Anlar...</h3>
+            <h3 class="animated-text bottom">Mükemmel Mimari, Büyüleyici Ambiyans ve Şıklığın Kusursuz Uyumu...</h3>
+        </div>
+    </section>
+    <div class="text"> 
+        <h2>Hayatınızın En Özel Anına Hazırlanın</h2>
+    </div>
+    <main>
+        <div class="card-container">
+            <div class="card">
+                <img src="./images/appearance.JPG" alt="Saray Plaza Dış Görünümü - Hatay">
+                <div class="card-content">
+                    <h3>Salonun Dış Görünümü</h3>
+                    <div class="separator"></div>
+                    <p>Modern mimarisi ve göz alıcı tasarımıyla Saray Plaza, düğün ve özel etkinliklerinize prestij katıyor. 
+                    Şık giriş alanı, büyüleyici aydınlatmalar ve estetik detaylarla misafirlerinizi etkileyici bir atmosferde ağırlıyoruz.</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="./images/etkinlik.png" alt="Hatay’da Özel Etkinlikler - Kına, Nişan, Doğum Günü">
+                <div class="card-content">
+                    <h3>Size Özel Etkinlikler</h3>
+                    <div class="separator"></div>
+                    <p>Kına gecesi, doğum günü, nişan ve özel davetleriniz için konsept organizasyonlar sunuyoruz. 
+                    Dekorasyon, müzik ve ikramlarla her detayı özenle hazırlıyoruz.</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="./images/konferans.jpg" alt="İş Toplantıları ve Konferans Salonu - Hatay">
+                <div class="card-content">
+                    <h3>İş Toplantıları & Konferanslar</h3>
+                    <div class="separator"></div>
+                    <p>Kurumsal etkinlikleriniz için profesyonel teknik altyapı, konforlu oturma düzeni ve kaliteli hizmet sunuyoruz. 
+                    Projeksiyon ve ses sistemleriyle donatılmış salonlarımızda iş dünyasına yakışan toplantılar düzenleyin.</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="./images/masa.jpg" alt="Hatay Düğün Salonu - Saray Plaza">
+                <div class="card-content">
+                    <h3>Düğün Organizasyonu</h3>
+                    <div class="separator"></div>
+                    <p>Unutulmaz bir düğün için her detayı sizin için tasarlıyoruz. 
+                    Zarif süslemeler, geniş salonlar ve profesyonel ekibimizle hayalinizdeki düğünü gerçeğe dönüştürüyoruz.</p>
+                </div>
+            </div>
+        </div>
+    </main>
+    <div class="text"> 
+        <h2 style="width: 60%;">Mutlu Anlarımızdan Kareler</h2>
+    </div>
+    <section id="gallery-section">
+        <div class="gallery-container">
+            <div class="gallery-frame" onclick="openLightbox(this)">
+                <button class="prev-btn" onclick="changeImage(-1)"></button>
+                <div class="gallery-images" onclick="openImage()">
+                    <img id="current-image" src="./images/img2.JPG" alt="Saray Plaza Etkinlik Fotoğrafları">
+                </div>
+                <button class="next-btn" onclick="changeImage(1)"></button>
+            </div>
+        </div>
+    </section>
+    <div id="lightbox" class="lightbox" onclick="closeLightbox()">
+        <img id="lightbox-image" src="" alt="Büyütülmüş Düğün ve Etkinlik Fotoğrafı">
+    </div>
+    <div class="text"> 
+        <h2 style="width: 60%;">Videolar</h2>
+    </div>
+    <div class="video-section">
+        <div class="video-container">
+            <div class="video-frame">
+                <button class="prev-btn" onclick="changeVideo(-1)"></button>
+                <iframe id="video-player" width="560" height="315" src="https://www.youtube.com/embed/G24ENGNhezY" 
+                    title="Saray Plaza Hatay Düğün Salonu Tanıtım Videosu" frameborder="0" allowfullscreen>
+                </iframe>
+                <button class="next-btn" onclick="changeVideo(1)"></button>
+            </div>
+        </div>
+    </div>
+    <div class="text"> 
+        <h2 style="width: 60%; margin-bottom: -8%;">İletişim</h2>
+    </div>
+    <div class="contact-section">
+        <div class="contact-cards">
+            <div class="contact-card">
+                <h3>Harita</h3>
+                <div class="map">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3218.2922113303875!2d36.13239307551801!3d36.232394972414426!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1525c2606427fe41%3A0x93855f6aa67d221a!2zU2FyYXkgUGxhemEgVG9wbGFudMSxIHZlIETDvMSfw7xuIFNhbG9udQ!5e0!3m2!1str!2str!4v1739380438646!5m2!1str!2str" width="100%" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+            <div class="contact-card">
+                <h3>Telefon</h3>
+                <p><a href="tel:+905330881094">+90 (533) 088 10 94</a></p>
+                <h3 style="margin-top: 5%;">Adres</h3>
+                <p>Saraykent Mahallesi Şükrü Balcı Caddesi Yeni Otogar Yanı Antakya/Hatay</p>
+            </div>
+            <div class="contact-card social-card">
+                <h3>Sosyal Medya</h3>
+                <div class="social-links">
+                    <a href="https://www.youtube.com/@SarayPlaza-31" target="_blank" class="social-icon">
+                        <i class="fab fa-youtube"></i> YouTube
+                    </a>
+                    <a href="https://www.instagram.com/sarayplazaantakya/" target="_blank" class="social-icon">
+                        <i class="fab fa-instagram"></i> Instagram
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="custom-signature">
+            <p class="signature-text">Aslanoğlu Yazılım</p>
+        </div>
+    </div>
+    <button id="scrollToTop" onclick="scrollToTop()">↑</button>
+
+    <script src="./app.js"></script>
+</body>
+</html>
