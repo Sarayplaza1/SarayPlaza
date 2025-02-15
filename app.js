@@ -56,6 +56,7 @@ const videos = [
     "https://www.youtube.com/embed/PGBNkacDhCc",
     "https://www.youtube.com/embed/5egNqD85mw0",
     "https://www.youtube.com/embed/KkYWfhBQbp4",
+    "https://www.youtube.com/embed/YhimvTdywdk",
 ];
 
 function changeVideo(direction) {
