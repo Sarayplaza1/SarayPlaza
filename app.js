@@ -10,6 +10,8 @@ const images = [
     "./images/mormasa.jpg",
     "./images/halay.png",
     "./images/img4.JPG",
+     "./images/ictasarim3.JPG",
+     "./images/ictasarim2.JPG",
 ];
 
 if (window.innerWidth <= 768) {
@@ -53,6 +55,7 @@ const videos = [
     "https://www.youtube.com/embed/iMNcxq4BYCo",
     "https://www.youtube.com/embed/PGBNkacDhCc",
     "https://www.youtube.com/embed/5egNqD85mw0",
+    "https://www.youtube.com/embed/KkYWfhBQbp4",
 ];
 
 function changeVideo(direction) {
