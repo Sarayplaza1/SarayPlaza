@@ -475,7 +475,7 @@ body {
 .custom-signature::before {
     content: "";
     position: absolute;
-    top: -19.95px;
+    top: -20px;
     left: 0;
     width: 0;
     height: 0;
