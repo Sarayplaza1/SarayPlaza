@@ -505,6 +505,7 @@ body {
      .text-container{
     transform: translateY(-150%);
       }
+     
     .text-container h3 {
         font-size: 1.5rem;
         white-space: normal;
@@ -513,15 +514,13 @@ body {
     }
     .card-container {
      flex-direction: column;
-     width: 80%;
+     margin-left: 2%;
+     margin-right: 2%;
+     width:95%;
     }
     .card p {
         font-size: 20px;
-      
     }
-  .card{
-    margin-right: 1rem;
-  }
 
   .lightbox img {
     max-width: 95%;
