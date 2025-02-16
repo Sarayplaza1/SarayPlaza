@@ -528,7 +528,7 @@ body {
     transform: translateY(-10%);
 }
     .gallery-frame {
-        height: 37vh;
+        height: 65vh;
         width: 97vw;
     }
     .gallery-images{
