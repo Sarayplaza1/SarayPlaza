@@ -1,23 +1,23 @@
 let currentImageIndex = 0;
 const images = [
-    "./images/img2.JPG",
-    "./images/appearance.JPG", 
-    "./images/img1.JPG",
-    "./images/img3.JPG",
-    "./images/masa.jpg",
-    "./images/konferans.jpg", 
-    "./images/mavimasa.jpg",
-    "./images/mormasa.jpg",
-    "./images/halay.png",
-    "./images/img4.JPG",
-     "./images/ictasarim3.JPG",
-     "./images/ictasarim2.JPG",
+    "./images/img2.webp",
+    "./images/appearance.webp", 
+    "./images/img1.webp",
+    "./images/img3.webp",
+    "./images/masa.webp",
+    "./images/konferans.webp", 
+    "./images/mavimasa.webp",
+    "./images/mormasa.webp",
+    "./images/halay.webp",
+    "./images/img4.webp",
+    "./images/ictasarim3.webp",
+    "./images/ictasarim2.webp",
 ];
 
 if (window.innerWidth <= 768) {
-    document.getElementById('hero-img').src = './images/appearencemobil.png';
+    document.getElementById('hero-img').src = './images/appearencemobil.webp';
 } else {
-    document.getElementById('hero-img').src = './images/appearance.JPG';
+    document.getElementById('hero-img').src = './images/appearance.webp';
 }
 
 function changeImage(direction) {
@@ -46,7 +46,6 @@ function closeLightbox() {
     const lightbox = document.getElementById('lightbox');
     lightbox.style.display = 'none';
 }
-
 
 let currentVideoIndex = 0;
 const videos = [
@@ -83,3 +82,25 @@ window.onscroll = function () {
 function scrollToTop() {
     window.scrollTo({ top: 0, behavior: "smooth" });
 }
+
+
+let touchStartX = 0;
+let touchEndX = 0;
+const galleryImage = document.getElementById("current-image");
+
+galleryImage.addEventListener("touchstart", function (event) {
+    touchStartX = event.touches[0].clientX;
+});
+
+galleryImage.addEventListener("touchmove", function (event) {
+    touchEndX = event.touches[0].clientX;
+});
+
+galleryImage.addEventListener("touchend", function () {
+    let swipeDistance = touchStartX - touchEndX;
+    if (swipeDistance > 50) {
+        changeImage(1); 
+    } else if (swipeDistance < -50) {
+        changeImage(-1);
+    }
+});
