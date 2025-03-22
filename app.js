@@ -12,6 +12,9 @@ const images = [
     "./images/img4.webp",
     "./images/ictasarim3.webp",
     "./images/ictasarim2.webp",
+    "./images/img6.webp",
+    "./images/img8.webp",
+    "./images/img7.webp",
 ];
 
 if (window.innerWidth <= 768) {
